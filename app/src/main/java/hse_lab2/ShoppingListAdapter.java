@@ -16,8 +16,8 @@ import com.example.lab2.R;
 import java.util.List;
 
 public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapter.ItemsHolder> {
-    public ShoppingListAdapter(List<Pair<String, String>> things) {
-        this.shoppingList = things;
+    public ShoppingListAdapter(List<Pair<String, String>> items) {
+        this.shoppingList = items;
     }
     private final List<Pair<String, String>> shoppingList;
 
